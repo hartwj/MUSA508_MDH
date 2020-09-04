@@ -1,5 +1,15 @@
-# MUSA508_MDH
+Analysis of mtcars!
+-------------------
 
-*******
+here is my data
 
-A really great repo! I wish I had someont to collab with!
+    str(mtcars)
+
+plot the data
+
+    plot(as.factor(mtcars$cyl), mtcars$mpg)
+
+And my findings
+
+    tt <- t.test(mtcars$cyl, mtcars$mpg)
+    print(tt)
